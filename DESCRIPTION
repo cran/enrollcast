@@ -1,6 +1,6 @@
 Package: enrollcast
 Title: Project School Enrollment with Grade Progression Ratios
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person("Rory", "Lawless", , "rory@rorylawless.com", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0009-0003-7688-309X"))
@@ -12,22 +12,21 @@ Description: Projects school enrollment using the cohort survival / grade
     grade-level enrollment and to project future enrollment forward an
     arbitrary horizon.
 License: MIT + file LICENSE
-URL: https://rorylawless.r-universe.dev/enrollcast,
-        https://github.com/localopen/enrollcast,
-        https://localopen.github.io/enrollcast/
+URL: https://localopen.github.io/enrollcast/,
+        https://github.com/localopen/enrollcast
 BugReports: https://github.com/localopen/enrollcast/issues
 Depends: R (>= 4.0)
 Imports: cli (>= 3.4.0), rlang (>= 1.0.0), stats
 Suggests: knitr, rmarkdown, testthat (>= 3.2.0)
 VignetteBuilder: knitr
 Config/Needs/website: pkgdown
-Config/roxygen2/version: 8.1.0
+Config/roxygen2/version: 8.1.1
 Config/testthat/edition: 3
 Encoding: UTF-8
 NeedsCompilation: no
-Packaged: 2026-08-20 23:13:15 UTC; rory
+Packaged: 2026-10-24 23:12:12 UTC; rory
 Author: Rory Lawless [aut, cre, cph] (ORCID:
     <https://orcid.org/0009-0003-7688-309X>)
 Maintainer: Rory Lawless <rory@rorylawless.com>
 Repository: CRAN
-Date/Publication: 2026-08-26 20:00:02 UTC
+Date/Publication: 2026-10-24 23:30:02 UTC
